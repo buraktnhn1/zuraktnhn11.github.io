@@ -68,7 +68,7 @@
 
 <div class="container">
   <div class="box" id="redBox"></div>
-  <h1 id="question">benimle date'e çıkar mısın?</h1>
+  <h1 id="question">bi starbucks???</h1>
   <div class="button-container">
     <button id="yes" class="button" style="transition: width 0.3s, height 0.3s, font-size 0.3s;" onclick="yesClicked()">Evet</button>
     <button id="red" class="button" onclick="noClicked()">Hayır</button>
@@ -107,7 +107,7 @@ function noClicked() {
 }
 
 function changeRedText() {
-    var words = ["emin misin", "bi daha düşün", "?????", "bro", "fuck u"];
+    var words = ["emin misin", "bi daha düşün", "?????", "üzüyorsun beni", "kalbım çıt gösyaşım pıt"];
     var filteredWords = words.filter(word => word !== previousWord);
     var randomIndex = Math.floor(Math.random() * filteredWords.length);
     var redButton = document.getElementById('red');
